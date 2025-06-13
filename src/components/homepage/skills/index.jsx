@@ -1,5 +1,5 @@
 import { skillsData } from "@/utils/data/skills";
-import { skillsImage } from "@/utils/skill-image";
+import { skillsimg } from "@/utils/skill-img";
 import Marquee from "react-fast-marquee";
 
 function Skills(){
@@ -45,8 +45,8 @@ function Skills(){
             </div>
             <div className="flex flex-col items-center justify-center gap-3 p-6">
               <div className="h-8 sm:h-10">
-                <Image
-                  src={skillsImage(skill)?.src}
+                <img
+                  src={skillsimg(skill)?.src}
                   alt={skill}
                   width={40}
                   height={40}

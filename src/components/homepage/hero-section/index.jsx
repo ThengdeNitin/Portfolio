@@ -1,6 +1,5 @@
 import { personalData } from "@/utils/data/personal-data";
-import Image from "next/image";
-import Link from "next/link";
+import Link from "react-router-dom";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
@@ -10,7 +9,7 @@ import { SiLeetcode } from "react-icons/si";
 function Herosection(){
   return(
     <section className="realtive flex flex-col item-center justify-between py-4 lg:py-12">
-      <Image
+      <img
       src="/hero.svg"
       alt="hero"
       width={1572}

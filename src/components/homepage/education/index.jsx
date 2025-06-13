@@ -1,5 +1,4 @@
 import { educations } from "../../../../utils/data/education";
-import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
 import AnimationLottie from "../../helper/animation-lottie";
@@ -9,7 +8,7 @@ import GlowCard from "../../helper/glow-card";
 function Education(){
   return(
     <div className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      <Image
+      <img
       src="/section.svg"
       alt="Hero"
       width={1572}
@@ -46,7 +45,7 @@ function Education(){
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
                     <div className="p-3 relative text-white">
-                      <Image
+                      <img
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}

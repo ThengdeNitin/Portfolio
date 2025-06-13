@@ -1,5 +1,4 @@
 import { experiences } from "../../../../utils/data/experience";
-import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import experience from "../../../assets/lottie/code.json";
 import AnimationLottie from "../../helper/animation-lottie";
@@ -8,7 +7,7 @@ import GlowCard from "../../helper/glow-card";
 function Experience(){
   return(
     <div id="experience" className="replative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      <Image
+      <img
       src="/section.svg"
       alt="Hero"
       width={1572}
@@ -40,7 +39,7 @@ function Experience(){
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
-                      <Image
+                      <img
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}

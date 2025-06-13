@@ -1,5 +1,5 @@
 import { personalData } from "../../../../utils/data/personal-data";
-import Link from 'next/link';
+import Link from 'react-router-dom';
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icon/ci";
 import { FaFacebook, FaStackOverflow } from "react-icons/fa";

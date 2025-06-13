@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import BlogCard from "./blog-card";
 
@@ -29,7 +29,7 @@ function Blog({ blogs }) {
           {blogs
             .slice(0, 6)
             .map(
-              (blog, i) => blog?.cover_image && <BlogCard blog={blog} key={i} />
+              (blog, i) => blog?.cover_img && <BlogCard blog={blog} key={i} />
             )}
         </div>
 
