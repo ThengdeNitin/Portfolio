@@ -1,5 +1,6 @@
-import { skillsData } from "@/utils/data/skills";
-import { skillsimg } from "@/utils/skill-img";
+import { skillsData } from "../../../../utils/data/skills";
+import { skillsimg } from "../../../../utils/skill-image";
+import React from "react";
 import Marquee from "react-fast-marquee";
 
 function Skills(){

@@ -1,7 +1,7 @@
 import { experiences } from "../../../../utils/data/experience";
 import { BsPersonWorkspace } from "react-icons/bs";
 import experience from "../../../assets/lottie/code.json";
-import AnimationLottie from "../../helper/animation-lottie";
+import { AnimationLottie } from "../../helper/animation-lottie.jsx";
 import GlowCard from "../../helper/glow-card";
 
 function Experience(){

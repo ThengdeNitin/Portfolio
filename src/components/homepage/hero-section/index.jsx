@@ -1,5 +1,5 @@
-import { personalData } from "@/utils/data/personal-data";
-import Link from "react-router-dom";
+import { personalData } from "../../../../utils/data/personal-data";
+import {  Link } from "react-router-dom";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
