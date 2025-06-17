@@ -1,4 +1,4 @@
-import { projectData } from "../../../../utils/data/personal-data";
+import { projectData } from '../../../../utils/data/projects-data.js';
 import ProjectCard from './project-card';
 
 const Projects = () => {

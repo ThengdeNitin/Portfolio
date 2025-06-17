@@ -1,17 +1,14 @@
+
 import Lottie from "lottie-react";
 
-const AnimationLottie = ({ animationPath, width }) => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationPath,
-    style: {
-      width: '95%',
-    }
-  };
-
+const AnimationLottie = ({ animationPath, width = '95%' }) => {
   return (
-    <Lottie {...defaultOptions} />
+    <Lottie
+      loop
+      autoplay
+      animationData={animationPath}
+      style={{ width }}
+    />
   );
 };
 

@@ -1,4 +1,4 @@
-export const projectsData = [
+export const projectData = [
   {
       id: 1,
       name: 'AI Powered Financial App',
