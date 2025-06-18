@@ -1,7 +1,7 @@
 import { educations } from "../../../../utils/data/education";
 import { BsPersonWorkspace } from "react-icons/bs";
 import lottieFile from '../../../assets/lottie/study.json';
-import { AnimationLottie } from "../../../components/helper/animation-lottie.jsx";
+import AnimationLottie from "../../../components/helper/animation-lottie.jsx";
 import GlowCard from "../../helper/glow-card.jsx";
 
 
@@ -37,9 +37,7 @@ function Education(){
           <div className="w-3/4 h-3/4">
             <AnimationLottie animationPath={lottieFile} />
           </div>
-        </div>
-
-        <div>
+          <div>
             <div className="flex flex-col gap-6">
               {
                 educations.map(education => (
@@ -73,7 +71,10 @@ function Education(){
                 ))
               }
             </div>
-          </div>
+        </div>
+        </div>
+
+        
       </div>
     </div>
   )

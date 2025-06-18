@@ -8,7 +8,7 @@ import Skills from './components/homepage/skills';
 import Projects from './components/homepage/projects';
 import Education from './components/homepage/education';
 // import Blog from './components/homepage/blog';
-// import ContactSection from './components/homepage/contact';
+import ContactSection from './components/homepage/contact';
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
       <Projects />
       <Education />
       {/* <Blog blogs={blogs} /> */}
-      {/* <ContactSection /> */}
+      <ContactSection />
       <Footer/>
     </>
   )
