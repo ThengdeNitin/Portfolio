@@ -5,7 +5,7 @@ import { skillsImage } from "../../../../utils/skill-image.js";
 
 function Skills() {
   return (
-    <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border border-[#25213b]">
+    <div id="skills" className="relative z-50 border-t my-12 lg:my-24 border border-[#25213b] pl-10 pr-10 bg-gradient-to-r to-violet-950 from-blue-950">
       <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl opacity-20" />
 
       <div className="flex justify-center -translate-y-[1px]">

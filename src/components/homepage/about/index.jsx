@@ -2,8 +2,7 @@ import { personalData } from "../../../../utils/data/personal-data";
 
 function AboutSection() {
   return (
-    <>
-      <div id="about" className="my-12 lg:my-16 relative">
+      <div id="about" className="py-12 lg:py-16 relative pl-20 pr-20 bg-gradient-to-r to-violet-950 from-blue-950">
         <div className="hidden lg:flex flex:col items-center absolute top-16 -right-8">
           <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounde-md">
             ABOUT ME
@@ -31,7 +30,6 @@ function AboutSection() {
         </div>
       </div>
       </div>
-    </>
   );
 }
 
