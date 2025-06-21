@@ -8,7 +8,7 @@ import { SiLeetcode } from "react-icons/si";
 
 function Herosection(){
   return(
-    <section className="realtive flex flex-col item-center justify-between py-4 lg:py-12 pl-10 pr-10 bg-gradient-to-r to-violet-950 from-blue-950">
+    <section className="realtive flex flex-col item-center justify-between py-4 lg:py-12 pl-10 pr-10 bg-gradient-to-r to-violet-950 from-blue-950 border-t-1 border-white">
       <img
       src="/hero.svg"
       alt="hero"
