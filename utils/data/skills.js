@@ -3,11 +3,10 @@ export const skillsData = [
   'CSS',
   'Javascript',
   'Typescript',
-  'ReactJs',
+  'React',
   'Angular',
-  'Java(J2SE/J2EE)',
-  'Spring Framework',
-  'Spring Boot',
+  'Java',
+  'SpringBoot',
   'Hibernate',
   'Servlet',
   'JSP',
@@ -23,9 +22,9 @@ export const skillsData = [
   'Postman',
   'Docker',
   'Kubernetes',
-  'Microservices(Basic)',
+  'Microservices',
   'JSON',
   'Unit Testing',
   'CI/CD Pipelines',
-  'Data Structure and Algorithm(Basics)'
+  'Data Structure and Algorithm'
 ]
