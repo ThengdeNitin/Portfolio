@@ -8,8 +8,6 @@ export const skillsData = [
   'Java',
   'SpringBoot',
   'Hibernate',
-  'Servlet',
-  'JSP',
   'MySQL',
   'MongoDB0',
   'NodeJs',

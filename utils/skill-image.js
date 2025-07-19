@@ -18,7 +18,11 @@ import tailwind from '../src/assets/svg/skills/tailwind.svg';
 import typescript from '../src/assets/svg/skills/typescript.svg';
 import vitejs from '../src/assets/svg/skills/vitejs.svg';
 import kubernetes from '../src/assets/svg/skills/kubernetes.svg';
-import springframework from '../src/assets/svg/skills/springframework.svg'
+import springboot from '../src/assets/svg/skills/springframework.svg';
+import hibernate from '../src/assets/svg/skills/hibernate.svg';
+import jira from '../src/assets/svg/skills/jira.svg';
+import postman from '../src/assets/svg/skills/postman.svg'
+
 
 // mapping
 const skillsMap = {
@@ -42,7 +46,10 @@ const skillsMap = {
   'typescript': typescript,
   'vitejs': vitejs,
   'kubernetes': kubernetes,
-  'springboot': springframework,
+  'springboot': springboot,
+  'hibernate': hibernate,
+  'jira': jira,
+  'postman': postman,
 };
 
 export const skillsImage = (skill) => {
