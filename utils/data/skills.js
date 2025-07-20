@@ -9,7 +9,7 @@ export const skillsData = [
   'SpringBoot',
   'Hibernate',
   'MySQL',
-  'MongoDB0',
+  'MongoDB',
   'NodeJs',
   'ExpressJs',
   'Git',
@@ -24,5 +24,9 @@ export const skillsData = [
   'JSON',
   'Unit Testing',
   'CI/CD Pipelines',
-  'Data Structure and Algorithm'
+  'Data Structure and Algorithm',
+  'C',
+  'C++',
+  'NodeJs',
+  'Expressjs',
 ]

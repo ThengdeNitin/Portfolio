@@ -21,7 +21,10 @@ import kubernetes from '../src/assets/svg/skills/kubernetes.svg';
 import springboot from '../src/assets/svg/skills/springframework.svg';
 import hibernate from '../src/assets/svg/skills/hibernate.svg';
 import jira from '../src/assets/svg/skills/jira.svg';
-import postman from '../src/assets/svg/skills/postman.svg'
+import postman from '../src/assets/svg/skills/postman.svg';
+import microservices from '../src/assets/svg/skills/microservices.svg';
+import nodejs from '../src/assets/svg/skills/nodejs.svg';
+import expressjs from '../src/assets/svg/skills/expressjs.svg';
 
 
 // mapping
@@ -50,6 +53,9 @@ const skillsMap = {
   'hibernate': hibernate,
   'jira': jira,
   'postman': postman,
+  'microservices': microservices,
+  'nodejs': nodejs,
+  'expressjs': expressjs,
 };
 
 export const skillsImage = (skill) => {
