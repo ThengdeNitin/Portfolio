@@ -13,7 +13,7 @@ function ContactSection() {
       id="contact"
       className="relative py-4 lg:py-12 pl-10 pr-10 text-white overflow-hidden bg-gradient-to-r to-violet-950 from-blue-950"
     >
-      <div className="my-12 lg:my-16 relative mt-24">
+      <div className="my-4 lg:my-6 relative mt-4">
         <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
           <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
             CONTACT
