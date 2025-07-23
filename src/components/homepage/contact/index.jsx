@@ -29,7 +29,6 @@ function ContactSection() {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
                   viewBox="0 0 24 24"
                   class="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                   height="36"
@@ -45,7 +44,6 @@ function ContactSection() {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
                   viewBox="0 0 512 512"
                   class="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                   height="36"
@@ -60,7 +58,6 @@ function ContactSection() {
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
                   viewBox="0 0 24 24"
                   class="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                   height="36"
