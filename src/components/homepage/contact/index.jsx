@@ -11,7 +11,8 @@ function ContactSection() {
   return (
     <div
       id="contact"
-      className="relative py-4 lg:py-12 pl-10 pr-10 text-white overflow-hidden bg-gradient-to-r to-violet-950 from-blue-950"
+      className="relative py-4 lg:py-12 text-white overflow-hidden"
+      style={{ background: "linear-gradient(to left, #a9caff 0%, #b8cbff 16.7%, #d3cbff 33.3%, #f0c8f9 50%, #ffc5f1 66.7%, #ffc0ec 83.3%, #ffbaec 100%)"}}
     >
       <div className="my-4 lg:my-6 relative mt-4">
         <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
@@ -21,7 +22,7 @@ function ContactSection() {
           <span className="h-36 w-[2px] bg-[#1a1443]"></span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center pl-10 pr-10">
           <ContactForm />
           <div className="lg:w-3/4">
             <div class="flex flex-col gap-5 lg:gap-9">
@@ -38,7 +39,7 @@ function ContactSection() {
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"></path>
                 </svg>
-                <span>{personalData.email}</span>
+                <span className="text-black">{personalData.email}</span>
               </p>
               <p class="text-sm md:text-xl flex items-center gap-3">
                 <svg
@@ -52,7 +53,7 @@ function ContactSection() {
                 >
                   <path d="M426.666 330.667a250.385 250.385 0 0 1-75.729-11.729c-7.469-2.136-16-1.073-21.332 5.333l-46.939 46.928c-60.802-30.928-109.864-80-140.802-140.803l46.939-46.927c5.332-5.333 7.462-13.864 5.332-21.333-8.537-24.531-12.802-50.136-12.802-76.803C181.333 73.604 171.734 64 160 64H85.333C73.599 64 64 73.604 64 85.333 64 285.864 226.136 448 426.666 448c11.73 0 21.334-9.604 21.334-21.333V352c0-11.729-9.604-21.333-21.334-21.333z"></path>
                 </svg>
-                <span>{personalData.phone}</span>
+                <span className="text-black">{personalData.phone}</span>
               </p>
               <p class="text-sm md:text-xl flex items-center gap-3">
                 <svg
@@ -71,7 +72,7 @@ function ContactSection() {
                     </g>
                   </g>
                 </svg>
-                <span>{personalData.address}</span>
+                <span className="text-black">{personalData.address}</span>
               </p>
             </div>
 

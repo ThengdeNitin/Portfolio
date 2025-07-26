@@ -6,13 +6,13 @@ import GlowCard from "../../helper/glow-card";
 
 function Experience() {
   return (
-    <div id="experience" className="relative z-50 border-t-1 border-white">
+    <div id="experience" className="relative border-t-1 border-white overflow-hidden">
       <img
         src="/section.svg"
         alt="Section Background"
         width={1572}
         height={795}
-        className="absolute top-0 -z-10"
+        className="absolute top-0"
       />
 
       <div className="flex justify-center my-5 lg:py-8">
@@ -25,8 +25,8 @@ function Experience() {
         </div>
       </div>
 
-      <div className="py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 pl-10 pr-10">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
               <AnimationLottie animationPath={experienceAnimation} />
@@ -46,7 +46,7 @@ function Experience() {
                       className="absolute bottom-0 opacity-80"
                     />
                     <div className="flex justify-center">
-                      <p className="text-xs sm:text-sm text-[#16f2b3]">
+                      <p className="text-xs sm:text-sm text-[#08644a] font-bold">
                         {experience.duration}
                       </p>
                     </div>
@@ -55,10 +55,10 @@ function Experience() {
                         <BsPersonWorkspace size={36} />
                       </div>
                       <div>
-                        <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                        <p className="text-base sm:text-xl mb-2 font-medium uppercase text-black">
                           {experience.title}
                         </p>
-                        <p className="text-sm sm:text-base">
+                        <p className="text-sm sm:text-base text-black">
                           {experience.company}
                         </p>
                       </div>
@@ -70,7 +70,6 @@ function Experience() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

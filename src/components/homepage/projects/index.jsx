@@ -22,7 +22,7 @@ const Projects = () => {
               key={index}
               className="sticky top-30 w-full mx-auto max-w-2xl"
             >
-              <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s] bg-gradient-to-r to-violet-950 from-black">
+              <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s] bg-gradient-to-l to-violet-950 from-blue-950">
                 <ProjectCard project={project} />
               </div>
             </div>

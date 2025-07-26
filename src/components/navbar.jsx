@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  return (
-    <nav className="bg-transparent pl-10 pr-10 bg-gradient-to-r to-violet-950 from-blue-950">
+  return ( 
+    <nav className="bg-transparent bg-gradient-to-l to-violet-950 from-blue-950 pl-10 pr-10">
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link to="/" className="text-[#16f2b3] text-3xl font-bold">
@@ -20,7 +20,7 @@ const Navbar = () => {
               href="#about"
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
                 ABOUT
               </div>
             </a>
@@ -31,7 +31,7 @@ const Navbar = () => {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#experience"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
                 EXPERIENCE
               </div>
             </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#skills"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
                 SKILLS
               </div>
             </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#education"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
                 EDUCATION
               </div>
             </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#projects"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
                 PROJECTS
               </div>
             </a>

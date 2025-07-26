@@ -4,9 +4,9 @@ function AboutSection() {
   return (
     <div
       id="about"
-      className="py-12 lg:py-16 relative pl-20 pr-20 bg-gradient-to-r to-violet-950 from-blue-950 border-t-1 border-white"
+      className="py-12 lg:py-16 relative pl-20 pr-20 bg-gradient-to-l to-violet-950 from-blue-950 border-t-1 border-white"
     >
-      <div className="hidden lg:flex flex:col items-center absolute top-16 -right-8">
+      <div className="hidden lg:flex flex:col items-center absolute top-16 right-0">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounde-md">
           ABOUT ME
         </span>
