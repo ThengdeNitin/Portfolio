@@ -25,6 +25,9 @@ import postman from '../src/assets/svg/skills/postman.svg';
 import microservices from '../src/assets/svg/skills/microservices.svg';
 import nodejs from '../src/assets/svg/skills/nodejs.svg';
 import expressjs from '../src/assets/svg/skills/expressjs.svg';
+import json from '../src/assets/svg/skills/json.svg'
+import dsa from '../src/assets/svg/skills/dsa.svg';
+import cicd from '../src/assets/svg/skills/cicd.svg'
 
 
 // mapping
@@ -56,6 +59,9 @@ const skillsMap = {
   'microservices': microservices,
   'nodejs': nodejs,
   'expressjs': expressjs,
+  'json': json,
+  'dsa': dsa,
+  'cicd' : cicd,
 };
 
 export const skillsImage = (skill) => {

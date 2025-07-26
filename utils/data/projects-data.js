@@ -1,38 +1,30 @@
 export const projectData = [
-  {
-      id: 1,
-      name: 'AI Powered Financial App',
-      description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-      tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-      role: 'Backend Developer',
-      code: '',
-      demo: '',
-  },
-  {
-      id: 2,
-      name: 'Travel Agency App',
-      description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-      tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-      role: 'Full Stack Developer',
-      code: '',
-      demo: '',
-  },
-  {
-      id: 3,
-      name: 'AI Powered Real Estate',
-      description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-      tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-      code: '',
-      role: 'Full Stack Developer',
-      demo: '',
-  },
-  {
-      id: 4,
-      name: 'Newsroom Management',
-      description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-      tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-      code: '',
-      demo: '',
-      role: 'Full Stack Developer',
-  }
+    {
+        id: 1,
+        name: 'Bravia Hotels - Admin Management Platform',
+        description: "As a Software Engineer at Grawlix Software, I contributed to building a modular admin management backend system for hotel operations. I developed scalable RESTful APIs using Java and Spring Boot for staff, booking, and customer modules. The system enforced RBAC using Spring Security, improving endpoint security by 95%. Optimized SQL queries and implemented indexing to increase database throughput by 40%. Integrated Apache Kafka for asynchronous microservices communication, reducing inter-service delay by 40%.",
+        tools: ['Java', 'Spring Boot', 'Spring Security', 'Hibernate', 'MySQL', 'JWT', 'REST API', 'Docker', 'CI/CD'],
+        role: 'Software Engineer',
+        code: '',
+        demo: ''
+      },    
+      {
+        id: 2,
+        name: 'Talboard - Staffing & Invoicing Tool',
+        description: "As a backend developer, I contributed to building and optimizing core modules for staffing, invoicing, and time tracking. Developed secure RESTful APIs using Node.js and JWT, resulting in a 40% reduction in unauthorized access. Improved database response time by 50% through SQL query tuning in MySQL. Participated in Agile ceremonies such as daily stand-ups and sprint reviews, which led to a 25% boost in feature delivery speed.",
+        tools: ['HTML','CSS','JavaScript','Node.js', 'Express.js', 'MySQL', 'JWT', 'REST API', 'Agile', 'JIRA', 'CI/CD'],
+        role: 'Software Engineer',
+        code: '',
+        demo: ''
+      },
+      {
+        id: 3,
+        name: 'Visualization of Sorting Algorithms',
+        description: "I developed an interactive sorting algorithm visualizer using React.js and JavaScript to provide real-time feedback and improve learning engagement. Implemented asynchronous logic to maintain smooth UI performance during heavy state transitions, reducing interface lag by 45%. Added unit, integration, and functional tests to enhance reliability by 40% and decrease post-release bugs by 35%.",
+        tools: ['React.js', 'JavaScript', 'HTML', 'CSS', 'Jest', 'React Testing Library', 'Async/Await'],
+        role: 'Frontend Developer',
+        code: '',
+        demo: ''
+      }
+      
 ];

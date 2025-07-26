@@ -22,11 +22,11 @@ export const skillsData = [
   'Kubernetes',
   'Microservices',
   'JSON',
-  'Unit Testing',
-  'CI/CD Pipelines',
-  'Data Structure and Algorithm',
+  'CICD',
+  'DSA',
   'C',
   'C++',
   'NodeJs',
   'Expressjs',
+  'Json'
 ]
