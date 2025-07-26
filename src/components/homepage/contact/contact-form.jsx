@@ -129,7 +129,7 @@ function Contactform() {
             <div className="flex flex-col items-center gap-3">
               <button
                 type="submit"
-                className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-l from-gray-600 to-black px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+                className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-l to-violet-950 from-blue-950 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
                 role="button"
               >
               <span className="flex items-center gap-1">

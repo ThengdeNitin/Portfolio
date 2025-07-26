@@ -76,14 +76,14 @@ function Herosection() {
               href="#contact"
               className="bg-gradient-to-l from-gray-600 to-black p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600"
             >
-              <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out md:font-semibold flex items-center gap-1 hover:gap-3">
+              <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-gradient-to-l to-violet-950 from-blue-950 rounded-full border-none text-center md:text-sm font-medium tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>CONTACT ME</span>
                 <RiContactsFill size={16} />
               </button>
             </a>
 
             <Link
-              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-l from-gray-600 to-black px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-l to-violet-950 from-blue-950 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
               role="button"
               target="_blank"
               to={personalData.resume}
