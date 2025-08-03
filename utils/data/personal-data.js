@@ -10,5 +10,5 @@ export const personalData = {
   facebook: 'https://www.facebook.com/nitin.thengade',
   linkedIn: 'https://www.linkedin.com/in/nitin-thengde016/',
   leetcode: "https://leetcode.com/u/ThengdeNitin16/",
-  resume: "https://drive.google.com/file/d/1xf1zqhLVqrADLIP-4AFf_TmCmSDpYN_A/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1afri6XQTP-dfGnep7b4vjZOPmuag7Pex/view?usp=sharing"
 }
