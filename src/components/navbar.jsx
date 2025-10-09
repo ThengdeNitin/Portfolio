@@ -1,76 +1,72 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  return ( 
-    <nav className="bg-transparent bg-gradient-to-l to-violet-950 from-blue-950 pl-10 pr-10">
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="bg-gradient-to-l to-violet-950 from-blue-950 pl-6 pr-6">
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
-          <Link to="/" className="text-[#16f2b3] text-3xl font-bold">
+          <Link to="/" className="text-[#16f2b3] text-2xl md:text-3xl font-bold">
             NITIN THENGDE
           </Link>
         </div>
 
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="md:hidden text-white focus:outline-none"
+        >
+          {isOpen ? (
+            <span className="text-3xl">&times;</span>
+          ) : (
+            <span className="text-3xl">&#9776;</span> 
+          )}
+        </button>
+
         <ul
-          className="mt-4 flex h-screen max-h-0  w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100"
-          id="navbar-default"
+          className={`flex flex-col md:flex-row md:items-center md:space-x-8 
+          absolute md:static left-0 top-16 w-full md:w-auto bg-violet-950 md:bg-transparent transition-all duration-300 ease-in-out z-50
+          ${isOpen ? "flex opacity-100" : "hidden md:flex opacity-0 md:opacity-100"}`}
         >
           <li>
             <a
               href="#about"
-              className="block px-4 py-2 no-underline outline-none hover:no-underline"
+              className="block px-4 py-2 text-white hover:text-pink-300 font-bold"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
-                ABOUT
-              </div>
+              ABOUT
             </a>
           </li>
-
           <li>
             <a
-              className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#experience"
+              className="block px-4 py-2 text-white hover:text-pink-300 font-bold"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
-                EXPERIENCE
-              </div>
+              EXPERIENCE
             </a>
           </li>
           <li>
             <a
-              className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#skills"
+              className="block px-4 py-2 text-white hover:text-pink-300 font-bold"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
-                SKILLS
-              </div>
+              SKILLS
             </a>
           </li>
           <li>
             <a
-              className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#education"
+              className="block px-4 py-2 text-white hover:text-pink-300 font-bold"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
-                EDUCATION
-              </div>
+              EDUCATION
             </a>
           </li>
-          {/* <li>
-          <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" to="/blogs">
-            <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-              BLOGS
-            </div>
-          </Link>
-        </li> */}
           <li>
             <a
-              className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#projects"
+              className="block px-4 py-2 text-white hover:text-pink-300 font-bold"
             >
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-300 font-bold">
-                PROJECTS
-              </div>
+              PROJECTS
             </a>
           </li>
         </ul>
